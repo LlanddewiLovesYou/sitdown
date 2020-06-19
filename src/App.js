@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import { fetchSitDown } from './util/roll.js'
+import { Header } from './components/header.jsx'
+import { Dice } from './components/dice.jsx'
+import { Display } from './components/display.jsx'
+
+
 function App() {
+  const sitDown = fetchSitDown()
+  // const sitDown = {id: 3, title: "HeadButt the Screen", summary: "do the thing"}
+  const diceRoll = sitDown.id
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+      <Dice diceRoll={diceRoll}></Dice>
+      <Display sitDown={sitDown}></Display>
     </div>
   );
 }
