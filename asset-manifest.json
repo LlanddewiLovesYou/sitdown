@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sitdown/static/css/main.781acbb4.chunk.css",
+    "main.js": "/sitdown/static/js/main.c6377fd9.chunk.js",
+    "main.js.map": "/sitdown/static/js/main.c6377fd9.chunk.js.map",
+    "runtime-main.js": "/sitdown/static/js/runtime-main.f63d94bf.js",
+    "runtime-main.js.map": "/sitdown/static/js/runtime-main.f63d94bf.js.map",
+    "static/js/2.3df61084.chunk.js": "/sitdown/static/js/2.3df61084.chunk.js",
+    "static/js/2.3df61084.chunk.js.map": "/sitdown/static/js/2.3df61084.chunk.js.map",
+    "index.html": "/sitdown/index.html",
+    "precache-manifest.f9a082a85e56e1429526ad044b9d4a40.js": "/sitdown/precache-manifest.f9a082a85e56e1429526ad044b9d4a40.js",
+    "service-worker.js": "/sitdown/service-worker.js",
+    "static/css/main.781acbb4.chunk.css.map": "/sitdown/static/css/main.781acbb4.chunk.css.map",
+    "static/js/2.3df61084.chunk.js.LICENSE.txt": "/sitdown/static/js/2.3df61084.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f63d94bf.js",
+    "static/js/2.3df61084.chunk.js",
+    "static/css/main.781acbb4.chunk.css",
+    "static/js/main.c6377fd9.chunk.js"
+  ]
+}
